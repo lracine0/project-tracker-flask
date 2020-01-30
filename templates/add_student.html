@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Student</title>
+</head>
+<body>
+
+    <form action="/student-add" method="POST">
+
+    <label>Enter First Name</label>
+      <input type="text" name="fname"><br><br>
+    <label>Enter Last Name</label>
+      <input type="text" name="lname"><br><br>
+    <label>Enter Github Account</label>
+      <input type="text" name="gitname"><br><br>
+
+    </label>
+    <input type="submit" value="Display Student"><br>
+  </form>
+
+
+  Successfully added student: {{fname}} {{lname}} {{gitname}}
+
+  <a href='/student?github={{gitname}}' alt-text='Check me out!!'/>
+
+</body>
+</html>
