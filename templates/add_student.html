@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <form action="/student-add" method="POST">
+    <form action="/student-display" method="POST">
 
     <label>Enter First Name</label>
       <input type="text" name="fname"><br><br>
@@ -15,13 +15,13 @@
       <input type="text" name="gitname"><br><br>
 
     </label>
-    <input type="submit" value="Display Student"><br>
+    <input type="submit" value="Submit Student"><br>
   </form>
 
-
+{# 
   Successfully added student: {{fname}} {{lname}} {{gitname}}
 
   <a href='/student?github={{gitname}}' alt-text='Check me out!!'/>
-
+ #}
 </body>
 </html>
